@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="perfil.css">
+    <title>Perfil - Unimed</title>
+</head>
+<body>
+    <h1>Bem vindo, {{Usuario}}</h1>
+
+    <div class="divPost">
+
+        <form action="/post_post" method="POST"><br>
+            <label for="post" class="post">Adicionar post</label><br>
+            <textarea name="post" id="" cols="90" rows="8"></textarea>
+            <input type="submit" value="Postar" class="btn">
+            <p class="postErro">{{PostErro}}</p>
+            <p class="postSucesso">{{PostSucesso}}</p>
+        </form>
+
+    </div>
+
+    <hr>
+
+    <h2>Posts</h2>
+
+    {{#Posts}}
+        <div class="listaPosts">
+            <p class="paragrafo1">{{conteudo}}</p>
+            <p class="paragrafo2">Realizado por: {{usuario}}, no dia {{dataHora}}</p>
+        </div>
+    {{/Posts}}
+
+    <hr>
+
+    <a href="/index">Página Principal</a>
+    <a href="/deslogar" class="desconectar">Desconectar-se</a>
+
+    <hr>
+
+    <!-- <h2>Shibe API</h2>
+
+        <button class="btn-shibe">Shibe</button>
+
+        <div class="shibe-container">
+
+        </div> -->
+
+</body>
+</html>

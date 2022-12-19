@@ -1,1 +1,3 @@
-# ProjetoWeb2
+# ProjetoWeb
+
+npm start

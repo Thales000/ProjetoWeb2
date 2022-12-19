@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-icone__">
+      <rect width="14" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="icone__" data-name="icone_+" clip-path="url(#clip-icone__)">
+    <rect width="14" height="14" fill="#fff"/>
+    <path id="plus" d="M16.65,9.249h-4v-4a.3.3,0,0,0-.3-.3H9.55a.3.3,0,0,0-.3.3v4h-4a.309.309,0,0,0-.3.3v2.8a.3.3,0,0,0,.3.3h4v4a.3.3,0,0,0,.3.3h2.8a.3.3,0,0,0,.3-.3v-4h4a.3.3,0,0,0,.3-.3v-2.8a.3.3,0,0,0-.3-.3Z" transform="translate(-3.951 -3.95)" fill="#b1d34b"/>
+  </g>
+</svg>
